@@ -1,1 +1,12 @@
 
+ConnectionStrings:
+  DefaultConnection: "Host=postgres;Port=5432;Database=incidentdb;Username=postgres;Password=postgres"
+Logging:
+  LogLevel:
+    Default: Information
+    Microsoft.AspNetCore: Warning
+Jwt:
+  Key: "wL8rV9f7XyP2zQs3eD1mK4nR5uJ6tB0aG7hQ9vS2xY3cM8pL6zF1dN0kR4bT7eH"  
+  Issuer: "IncidentSystem"
+  Audience: "IncidentSystem"
+  ExpireMinutes: 60
