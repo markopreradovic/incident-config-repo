@@ -1,1 +1,8 @@
-
+ConnectionStrings:
+  DefaultConnection: "Host=postgres;Port=5432;Database=incidentdb;Username=postgres;Password=postgres"
+Logging:
+  LogLevel:
+    Default: Information
+    Microsoft.AspNetCore: Warning
+ModerationSettings:
+  RequireImageForApproval: false 
